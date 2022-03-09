@@ -1,5 +1,3 @@
-from turtle import width
-from click import option
 import streamlit as st
 import numpy as np
 import pandas as pd
@@ -27,8 +25,6 @@ st.table(df.style.highlight_max(axis=0))
 
 ```python
 
-from turtle import width
-from click import option
 import streamlit as st
 import numpy as np
 import pandas as pd
