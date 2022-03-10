@@ -1,5 +1,3 @@
-from turtle import width
-from click import option
 import streamlit as st
 import numpy as np
 import pandas as pd
