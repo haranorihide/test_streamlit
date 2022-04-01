@@ -57,11 +57,11 @@ st.map(df3)
 
 from PIL import Image
 
-img = Image.open('だいち.png')
-st.image(img,caption='ＮＴＴＤＡＴＡだいち',use_column_width=True)
+img = Image.open('db3.png')
+st.image(img,caption='三星球',use_column_width=True)
 if st.checkbox('表示'):
-    img = Image.open('だいち.png')
-    st.image(img,caption='ＮＴＴＤＡＴＡだいち',use_column_width=True)
+    img = Image.open('db3.png')
+    st.image(img,caption='三星球',use_column_width=True)
 
 sbx = st.selectbox(
     '好きな数字を選んでください',list(range(1,11))
